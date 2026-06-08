@@ -36,12 +36,17 @@ jupyter notebook test.ipynb
 
 Execute the cells sequentially. The notebook will automatically load the never_see images, extract features using our illumination compensation algorithm, and output the predicted wear levels along with visualized bounding boxes.
 ```
-## 📊 Dataset Overview
+## 📊 Dataset Overview 
 ```bash
 - **Images**: 1200 raw images (`raw_images/`) and corresponding masks (`masks/`).
 - **Models**: Pre-trained Random Forest model (`rf_model.pkl`) and scaler (`scaler.pkl`).
+
+<img width="896" height="411" alt="image" src="https://github.com/user-attachments/assets/74374ab4-0c02-46a7-b680-836dada5d011" />
+
+
+
 ```
-## 🚀 Download
+## 🚀 Download  （下载数据集）
 ```bash
 Due to file size limits, the images and masks are hosted in the Releases section.
 (通过网盘分享的文件：Dataset - Traction system (wear debris) 链接: https://pan.baidu.com/s/13A25bHm0P32XjAgOxSiLaQ?pwd=1436 提取码: 1436 --来自百度网盘超级会员v4的分享)**
