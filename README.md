@@ -17,18 +17,18 @@ Below is an overview of the core files included in this repository:
 
 Follow these steps to set up the environment and test the pre-trained model on the provided sample images.
 
-### 1. Clone the Repository
+### 1. Clone the Repository 
 ```bash
 git clone (https://github.com/zhiwwu987-afk/Dataset-Traction-system-wear-debris)
 ```
-### 2. Environment Setup
+### 2. Environment Setup （设置环境）
 ```bash
 We provide an environment.yml file to easily recreate the exact Conda environment used for this project.
 
 conda env create -f environment.yml
 conda activate your_env_name
 ```
-### 3. Run the Evaluation
+### 3. Run the Evaluation （测试，要建立一个文件夹存放没有见过的照片，将存放".csv"，".pkl"和"没见过的文件夹"路径设好）
 ```bash
 Start Jupyter Notebook to run the evaluation script:
 
