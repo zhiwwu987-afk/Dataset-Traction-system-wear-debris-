@@ -22,31 +22,37 @@ Follow these steps to set up the environment and test the pre-trained model on t
 git clone (https://github.com/zhiwwu987-afk/Dataset-Traction-system-wear-debris)
 ```
 ### 2. Environment Setup
+```bash
 We provide an environment.yml file to easily recreate the exact Conda environment used for this project.
 
 conda env create -f environment.yml
 conda activate your_env_name
-
+```
 ### 3. Run the Evaluation
+```bash
 Start Jupyter Notebook to run the evaluation script:
 
 jupyter notebook test.ipynb
 
 Execute the cells sequentially. The notebook will automatically load the never_see images, extract features using our illumination compensation algorithm, and output the predicted wear levels along with visualized bounding boxes.
-
+```
 ## 📊 Dataset Overview
+```bash
 - **Images**: 1200 raw images (`raw_images/`) and corresponding masks (`masks/`).
 - **Models**: Pre-trained Random Forest model (`rf_model.pkl`) and scaler (`scaler.pkl`).
-
+```
 ## 🚀 Download
+```bash
 Due to file size limits, the images and masks are hosted in the Releases section.
 (通过网盘分享的文件：Dataset - Traction system (wear debris) 链接: https://pan.baidu.com/s/13A25bHm0P32XjAgOxSiLaQ?pwd=1436 提取码: 1436 --来自百度网盘超级会员v4的分享)**
-
+```
 ## 💻 Usage
+```bash
 1. Download and extract the zip file into this repository folder.
 2. Ensure your environment matches the required scikit-learn version for the `.pkl` files.
 3. Read `labeled_dataset.csv` for bounding box/class information.
-
+```
 ## 📝 Citation
+```bash
 We will post updated results soon
-
+```
