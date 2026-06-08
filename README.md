@@ -1,9 +1,18 @@
 # Dataset-Traction-system-wear-debris-
-A dataset of 1200 images for wire rope shedding detection.
-# Wire Rope Shedding Dataset
+A dataset of 1200 images for wire rope shedding detection.This repository provides the dataset, pre-trained models, and evaluation code for our research on wire rope shedding detection. It is designed to facilitate reproducibility and further research in industrial defect analysis.
 
-This repository contains the dataset and models for our paper [*****].
-We will post updated results soon
+## 📂 Repository Structure
+
+Below is an overview of the core files included in this repository:
+
+| File / Format | Description |
+| :--- | :--- |
+| `labeled_dataset.csv` | The core dataset containing extracted features (Area Ratio, IOD, Max Cluster, Core Ratio) and corresponding wear levels. |
+| `rf_model.pkl` & `scaler.pkl`| The pre-trained Random Forest classifier and the standard scaler used for feature normalization. |
+| `test.ipynb` | A Jupyter Notebook demonstrating how to load the model, process images, and visualize the detection results. |
+| `never_see (*).jpg` | Sample unseen images provided directly in the root directory for quick testing and inference demonstration. |
+
+
 
 ## 📊 Dataset Overview
 - **Images**: 1200 raw images (`raw_images/`) and corresponding masks (`masks/`).
