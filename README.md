@@ -19,7 +19,7 @@ Follow these steps to set up the environment and test the pre-trained model on t
 
 ### 1. Clone the Repository 
 ```bash
-git clone (https://github.com/zhiwwu987-afk/Dataset-Traction-system-wear-debris)
+git clone (Dataset-Traction-system-wear-debris)
 ```
 ### 2. Environment Setup （设置环境）
 ```bash
