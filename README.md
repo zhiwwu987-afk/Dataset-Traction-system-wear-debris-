@@ -20,7 +20,7 @@ Follow these steps to set up the environment and test the pre-trained model on t
 ### 1. Clone the Repository
 ```bash
 git clone (https://github.com/zhiwwu987-afk/Dataset-Traction-system-wear-debris)
-```bash
+```
 ### 2. Environment Setup
 We provide an environment.yml file to easily recreate the exact Conda environment used for this project.
 
