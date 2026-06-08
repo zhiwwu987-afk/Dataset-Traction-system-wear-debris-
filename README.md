@@ -40,12 +40,9 @@ Execute the cells sequentially. The notebook will automatically load the never_s
 ```bash
 - **Images**: 1200 raw images (`raw_images/`) and corresponding masks (`masks/`).
 - **Models**: Pre-trained Random Forest model (`rf_model.pkl`) and scaler (`scaler.pkl`).
-
+```
 <img width="896" height="411" alt="image" src="https://github.com/user-attachments/assets/74374ab4-0c02-46a7-b680-836dada5d011" />
 
-
-
-```
 ## 🚀 Download  （下载数据集）
 ```bash
 Due to file size limits, the images and masks are hosted in the Releases section.
