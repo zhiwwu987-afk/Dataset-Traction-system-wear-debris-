@@ -42,6 +42,8 @@ Execute the cells sequentially. The notebook will automatically load the never_s
 - **Models**: Pre-trained Random Forest model (`rf_model.pkl`) and scaler (`scaler.pkl`).
 ```
 <img width="896" height="411" alt="image" src="https://github.com/user-attachments/assets/74374ab4-0c02-46a7-b680-836dada5d011" />
+<img width="598" height="463" alt="image" src="https://github.com/user-attachments/assets/85dee97a-04c8-4d30-8b6f-cbe4f9289064" />
+
 
 ## 🚀 Download  （下载数据集）
 ```bash
